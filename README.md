@@ -1,47 +1,46 @@
-# Структура папок и файлов стилей (POSTCSS/SCSS/SASS/LESS)
+### Структура папок и файлов стилей (POSTCSS/SCSS/SASS/LESS)
 
-**sass** - папка
-local - файл
+`ext` - (postcss|scss/sass|less)
 
 ```
 -- stylesheets
-   -- postcss/scss/sass/less
+   -- postcss|scss/sass|less
       -- base
-         -- reset
-         -- normalize
-         -- grid
+         -- reset.ext
+         -- normalize.ext
+         -- grid.ext
             ...
       -- global
-         -- variables
-         -- mixins
-         -- placeholders
-         -- helpers
-         -- states
+         -- variables.ext
+         -- mixins.ext
+         -- placeholders.ext
+         -- helpers.ext
+         -- states.ext
             ...
       -- fonts
-         -- ptsans
-         -- fonts
+         -- ptsans.ext
+         -- fonts.ext
          ...
       -- partials
          -- foo
-            -- variables
-            -- mixins
-            -- placeholders
-            -- foo
+            -- variables.ext
+            -- mixins.ext
+            -- placeholders.ext
+            -- foo.ext
          -- bar
-            -- variables
-            -- mixins
-            -- placeholders
-            -- bar
+            -- variables.ext
+            -- mixins.ext
+            -- placeholders.ext
+            -- bar.ext
             ...
       -- vendors
-         -- jquery-bootstrap-datepicker
+         -- jquery-bootstrap-datepicker.ext
             ...
       -- pages
          -- landing
             -- ios
             -- android
-      -- bundle
-   -- local
-   -- production
+      -- bundle.ext
+   -- local.ext
+   -- production.ext
 ```
