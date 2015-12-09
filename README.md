@@ -1,6 +1,6 @@
 ### Stylesheets Structure (POSTCSS/SCSS/SASS/LESS)
 
-`ext` - postcss|scss/sass|less
+`*` - postcss|scss/sass|less
 
 ```
 stylesheets/
@@ -8,40 +8,40 @@ stylesheets/
 |-- (postcss|scss/sass|less)/
 |   |
 |   |-- base/
-|   |   |-- reset.(ext)
-|   |   |-- normalize.(ext)
-|   |   |-- grid.(ext)
+|   |   |-- reset.*
+|   |   |-- normalize.*
+|   |   |-- grid.*
 |   |   ...
 |   |
 |   |-- global/
-|   |   |-- variables.(ext)
-|   |   |-- mixins.(ext)
-|   |   |-- placeholders.(ext)
-|   |   |-- helpers.(ext)
-|   |   |-- states.(ext)
+|   |   |-- variables.*
+|   |   |-- mixins.*
+|   |   |-- placeholders.*
+|   |   |-- helpers.*
+|   |   |-- states.*
 |   |   ...
 |   |
 |   |-- fonts/
-|   |   |-- ptsans.(ext)
-|   |   |-- fonts.(ext)
+|   |   |-- ptsans.*
+|   |   |-- fonts.*
 |   |   ...
 |   |
 |   |-- partials/
 |   |   |-- foo/
-|   |   |   |-- variables.(ext)
-|   |   |   |-- mixins.(ext)
-|   |   |   |-- placeholders.(ext)
-|   |   |   |-- foo.(ext)
+|   |   |   |-- variables.*
+|   |   |   |-- mixins.*
+|   |   |   |-- placeholders.*
+|   |   |   |-- foo.*
 |   |   |
 |   |   |-- bar/
-|   |   |   |-- variables.(ext)
-|   |   |   |-- mixins.(ext)
-|   |   |   |-- placeholders.(ext)
-|   |   |   |-- bar.(ext)
+|   |   |   |-- variables.*
+|   |   |   |-- mixins.*
+|   |   |   |-- placeholders.*
+|   |   |   |-- bar.*
 |   |   ...
 |   |
 |   |-- vendors/
-|   |   |-- jquery-bootstrap-datepicker.(ext)
+|   |   |-- jquery-bootstrap-datepicker.*
 |   |   ...
 |   |
 |   |-- pages/
@@ -50,8 +50,8 @@ stylesheets/
 |   |   |   |-- android/
 |   |   ...
 |   |
-|   |-- bundle.(ext)
+|   |-- bundle.*
 |
-|-- local.(ext)
-|-- production.(ext)
+|-- local.*
+|-- production.*
 ```
